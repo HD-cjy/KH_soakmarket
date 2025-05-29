@@ -21,10 +21,10 @@ public class MemberServiceImpl implements MemberService{
 	//@Transactional 어노테이션을 부여하고 직접 관리하면 된다.
 	@Override
 	public Member loginMember(Member m) {
-		// TODO Auto-generated method stub
-		return null;
+		Member loginUser = dao.loginMember(sqlSession,m);
+		return loginUser;
 	}
-
+	
 	@Override
 	public int insertMember(Member m) {
 		// TODO Auto-generated method stub

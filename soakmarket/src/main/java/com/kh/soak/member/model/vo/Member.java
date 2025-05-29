@@ -24,7 +24,6 @@ public class Member {
 	private String email;	//	EMAIL	VARCHAR2(255 BYTE) 이메일 
 	private boolean status;//	STATUS	VARCHAR2(1 BYTE) 유저상태(회원 탈퇴 유무)
 	private int userRank;	//	USERRANK	NUMBER(38,0) 유저 매너 지수
-	// 가입일자나 수정일자 필요하진 않은가?  흠 
 //	private String address;// ADDRESS VARCHAR2(100 BYTE)
 //	private Date enrollDate;// ENROLL_DATE DATE
 //	private Date modifyDate;// MODIFY_DATE DATE
