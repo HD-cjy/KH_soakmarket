@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+package com.kh.soak.member.model.vo;
+
+public class Member {
+	
+}
+=======
 package com.kh.soak.member.model.vo;
 
 import lombok.AllArgsConstructor;
@@ -28,3 +35,4 @@ public class Member {
 //	private Date enrollDate;// ENROLL_DATE DATE
 //	private Date modifyDate;// MODIFY_DATE DATE
 }
+>>>>>>> branch 'chanwoo' of https://github.com/HD-cjy/KH_soakmarket.git

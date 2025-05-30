@@ -1,5 +1,9 @@
 package com.kh.soak.member.controller;
 
+<<<<<<< HEAD
+public class MemberController {
+
+=======
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,4 +37,5 @@ public class MemberController {
 		
 	}
 	
+>>>>>>> refs/remotes/origin/main
 }

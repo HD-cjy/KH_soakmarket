@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+package com.kh.soak.member.model.dao;
+
+public class MemberDao {
+
+}
+=======
 package com.kh.soak.member.model.dao;
 
 import org.mybatis.spring.SqlSessionTemplate;
@@ -49,3 +56,4 @@ public class MemberDao {
 }
 
 	
+>>>>>>> branch 'chanwoo' of https://github.com/HD-cjy/KH_soakmarket.git
