@@ -60,7 +60,7 @@
 			<version>1.2.15</version>
 			<exclusions>
 			
-			<!-- sprign -->
+			<!-- spring -->
 			<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
@@ -114,14 +114,7 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-<<<<<<< HEAD
-		
-		
-		
-	
-		<!-- Test -->
-=======
->>>>>>> branch 'chanwoo' of https://github.com/HD-cjy/KH_soakmarket.git
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
