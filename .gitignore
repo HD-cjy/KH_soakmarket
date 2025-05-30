@@ -106,7 +106,6 @@ local.properties
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
@@ -133,8 +132,6 @@ buildNumber.properties
 
 # Eclipse m2e generated files
 # Eclipse Core
-.project
 # JDT-specific (Eclipse Java Development Tools)
-.classpath
 
 # End of https://www.toptal.com/developers/gitignore/api/java,eclipse,maven
