@@ -27,32 +27,32 @@ public class MemberDao {
 	}
 	//전체기능 수정 필ㅇ 
 	//회원가입 기능
-//	public int insertMember(SqlSessionTemplate sqlSession, Member m) {
-//		
-////		int result = sqlSession.insert("memberMapper.insertMember",m);
-////		return result;
-//		
-//		//한줄처리
-//		return sqlSession.insert("memberMapper.insertMember",m);
-//	}
-//	
-//	//정보수정 메소드 
-//	public int updateMember(SqlSessionTemplate sqlSession, Member m) {
-//
-//		return sqlSession.update("memberMapper.updateMember",m);
-//	}
-//	
-//	//회원 탈퇴 메소드
-//	public int deleteMember(SqlSessionTemplate sqlSession, Member m) {
-//		
-//		return sqlSession.update("memberMapper.deleteMember",m);
-//	}
-//
-//	//아이디 중복확인
-//	public int idCheck(SqlSessionTemplate sqlSession, String userId) {
-//		
-//		return sqlSession.selectOne("memberMapper.idCheck",userId);
-//	}
+	public int insertMember(SqlSessionTemplate sqlSession, Member m) {
+		
+//		int result = sqlSession.insert("memberMapper.insertMember",m);
+//		return result;
+		
+		//한줄처리
+		return sqlSession.insert("memberMapper.insertMember",m);
+	}
+	
+	//정보수정 메소드 
+	public int updateMember(SqlSessionTemplate sqlSession, Member m) {
+
+		return sqlSession.update("memberMapper.updateMember",m);
+	}
+	
+	//회원 탈퇴 메소드
+	public int deleteMember(SqlSessionTemplate sqlSession, Member m) {
+		
+		return sqlSession.update("memberMapper.deleteMember",m);
+	}
+
+	//아이디 중복확인
+	public int idCheck(SqlSessionTemplate sqlSession, String userId) {
+		
+		return sqlSession.selectOne("memberMapper.idCheck",userId);
+	}
 }
 
 	
